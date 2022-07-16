@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Automatizacion de Api Rest" skipped="0" tests="1" time="6.35" timestamp="2022-06-16 11:37:38"><testcase name="Consultar informacion de usuario"><failure message="1 expectation failed.&#10;JSON path data.name doesn't match.&#10;Expected: Deepali Malik&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path data.name doesn't match.
+Expected: Deepali Malik
+  Actual: null
+</failure><system-err>1 expectation failed.
+JSON path data.name doesn't match.
+Expected: Deepali Malik
+  Actual: null
+&#13;
+com.sophossolutions.stepdefinitions.GetGorestStepDefinitions.validaQueElEstatusCodeSeaYLaRespuestaContengaElNombre(GetGorestStepDefinitions.java:36)&#13;
+✽.valida que el estatus code sea 200 y la respuesta contenga el nombre "Deepali Malik"(file:///D:/Desarrollo%20y%20pruebas/proyectosJava/practicaScreenplayApiRest/src/test/resources/com/sophossolutions/features/get_gorest.feature:9)&#13;
+</system-err></testcase></testsuite>

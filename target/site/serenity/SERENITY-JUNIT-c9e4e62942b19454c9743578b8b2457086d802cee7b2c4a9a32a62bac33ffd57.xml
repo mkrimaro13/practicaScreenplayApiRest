@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Automatizacion de Api Rest" skipped="0" tests="1" time="3.03" timestamp="2022-07-13 11:23:44"><testcase name="Eliminar la información de un usuario con método Delete"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+com.sophossolutions.stepdefinitions.DeleteGorestStepDefinitions.validaQueElStatusCodeSea(DeleteGorestStepDefinitions.java:18)&#13;
+✽.valida que el status code sea 204(file:///D:/PrJava/proyectosJava/practicaScreenplayApiRest/src/test/resources/com/sophossolutions/features/delete_gorest.feature:9)&#13;
+</system-err></testcase></testsuite>

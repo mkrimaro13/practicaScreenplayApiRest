@@ -1,0 +1,16 @@
+com/sophossolutions/stepdefinitions/DeleteGorestStepDefinitions.java
+ com.sophossolutions.stepdefinitions.DeleteGorestStepDefinitions
+com/sophossolutions/runners/DeleteGorest.java
+ com.sophossolutions.runners.DeleteGorest
+com/sophossolutions/runners/PostGorest.java
+ com.sophossolutions.runners.PostGorest
+com/sophossolutions/runners/PatchGorest.java
+ com.sophossolutions.runners.PatchGorest
+com/sophossolutions/runners/GetGorest.java
+ com.sophossolutions.runners.GetGorest
+com/sophossolutions/stepdefinitions/GetGorestStepDefinitions.java
+ com.sophossolutions.stepdefinitions.GetGorestStepDefinitions
+com/sophossolutions/stepdefinitions/PatchGorestStepDefinitions.java
+ com.sophossolutions.stepdefinitions.PatchGorestStepDefinitions
+com/sophossolutions/stepdefinitions/PostGorestStepDefinitions.java
+ com.sophossolutions.stepdefinitions.PostGorestStepDefinitions

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automatizacion de Api Rest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-15T23:05:01" hostname="DESKTOP-NJH5LAP" time="6.025">
+  <properties/>
+  <testcase name="Crear un usuario con metodo Post #1" classname="Automatizacion de Api Rest" time="4.875"/>
+  <testcase name="Crear un usuario con metodo Post #2" classname="Automatizacion de Api Rest" time="1.15"/>
+  <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Fri, 15 Jul 2022 23:05:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+Location: https://gorest.co.in/public/v2/users/3027
+ETag: W/"014984b8168f9ac443fa52a5160be3f7"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: ac38422d-bc7a-4d02-b741-56767708487b
+X-Runtime: 0.019837
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b%2FJtSKVIAOn5GxaT88KgJRXMfrKoUHFRBoLstz3uM%2BYksPJwfWk5%2Fhs3520yO%2BGer1iyUAK7iTBI3Q8fZLb%2BtMhtWx8j9eLK5%2BNJzHZYqjPSgy8OAvDERh6ukdGPBP8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72b6240c4f1e961a-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 3027,
+    "name": "Carlosia Gonzalez",
+    "email": "carpe1223@falso.com",
+    "gender": "male",
+    "status": "inactive"
+}
+HTTP/1.1 201 Created
+Date: Fri, 15 Jul 2022 23:05:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+Location: https://gorest.co.in/public/v2/users/3028
+ETag: W/"7db1629af034abbef518a700d987295d"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: dfaa4f3f-1072-497d-ad34-8343c1d9b4a4
+X-Runtime: 0.018519
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MJYEhO5Qs%2B0VdArtHL4Ocu3BFx1fEaqvezAYyRmjC8DQT0HfCwRDrxUYrsCOYln9pL5dmDr8H%2BD1WwddEayERWuBLj2sKheIX55PcN6XLUVfKIaSS3pG1L0fcVqoLNE%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72b624178d832263-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 3028,
+    "name": "Carlosqw Perez",
+    "email": "carpe19012@falso.com",
+    "gender": "male",
+    "status": "inactive"
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PrJava/proyectosJava/practicaScreenplayApiRest/src/test/resources/com/sophossolutions/features/post_gorest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Crear un usuario con metodo Post(automatizacion-de-api-rest;crear-un-usuario-con-metodo-post)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Crear un usuario con metodo Post
+----------------------------------------------------------------------?[0m
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PrJava/proyectosJava/practicaScreenplayApiRest/src/test/resources/com/sophossolutions/features/post_gorest.feature
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Crear un usuario con metodo Post
+----------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
