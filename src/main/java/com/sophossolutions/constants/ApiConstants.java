@@ -2,5 +2,5 @@ package com.sophossolutions.constants;
 
 public class ApiConstants {
 
-    public static final String TOKEN = "bfa8ef90c88d8a6cfccb97cff1c21c27b1d67d5e449739e8ced83a13d5464105";
+    public static final String TOKEN = "9e74c51fbff582b9e7b3db472fa560a6034b8fbd8c011d34bada935d27b17815";
 }
