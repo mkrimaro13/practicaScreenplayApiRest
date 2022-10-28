@@ -1,5 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Automatizacion de Api Rest","Eliminar la información de un usuario con método Delete","ERROR","2022-07-13T23:15:02.6717011-05:00[America/Bogota]","0.0","0.84"
+"Automatizacion de Api Rest","Eliminar la información de un usuario con método Delete","FAILURE","2022-07-13T23:23:44.197-05:00[America/Bogota]","0.0","3.03"
 "Automatizacion de Api Rest","Consultar informacion de usuario","FAILURE","2022-06-16T11:37:38.077-05:00[America/Bogota]","0.0","6.35"
 "Automatizacion de Api Rest","Modificar la información de usuario con método Patch","SUCCESS","2022-06-19T11:18:19.729-05:00[America/Bogota]","0.0","12.41"
-"Automatizacion de Api Rest","Crear un usuario con metodo Post","FAILURE","2022-06-19T10:58:45.354-05:00[America/Bogota]","0.0","10.49"
+"Automatizacion de Api Rest","Crear un usuario con metodo Post","SUCCESS","2022-10-28T16:46:14.16-05:00[America/Bogota]","0.0","7.44"
