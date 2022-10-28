@@ -5,11 +5,11 @@ Feature: Automatizacion de Api Rest
 
   Scenario Outline: Modificar la información de usuario con método Patch
     Given "Luis" establece la base url "https://gorest.co.in/" del servicio
-    When consulta en el endpoint "public/v2/users/" por id "3803" y propociona la informacion
+    When consulta en el endpoint "public/v2/users/" por id "88" y propociona la informacion
       | name   | <name>   |
       | status | <status> |
     Then valida que la respuesta tenga el nombre "<name>" y el status "<status>" y el status code sea 200
 
     Examples:
       | name            | status   |
-      | Luis Hernesto   | active |
+      | Luis Hernesto   | inactive |

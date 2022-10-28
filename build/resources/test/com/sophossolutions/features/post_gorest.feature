@@ -14,5 +14,5 @@ Feature: Automatizacion de Api Rest
 
     Examples:
       | name         | gender | email            | status |
-      | Carlosia Gonzalez | Male   | carpe1223@falso.com | inactive |
-      | Carlosqw Perez | Male   | carpe19012@falso.com | inactive |
+      | asdne | Male   | correo@falso.com | inactive |
+      | Carlosqw Perez | Male   | correo1@falso0.com | inactive |
